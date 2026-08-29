@@ -1,8 +1,11 @@
+import { BrowserRouter as Router } from "react-router-dom";
+import Header from "./components/Header/Header";
+
 function App() {
   return (
-    <>
-      <h1>BoardVerse</h1>
-    </>
+    <Router>
+      <Header />
+    </Router>
   );
 }
 
