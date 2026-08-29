@@ -1,0 +1,149 @@
+/* Footer.module.css */
+
+.footer {
+  font-family: "Work Sans", sans-serif;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.03),
+    #2a2a2a 30%,
+    #242424 100%
+  );
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  color: #d8d8d8;
+  padding: 48px 0;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.col {
+  flex: 1 1 280px;
+}
+
+.footerLogo {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.footerTitle {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.mtTop {
+  margin-top: 24px;
+}
+
+.footerText {
+  margin: 0 0 10px 0;
+  color: #cfcfcf;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.footerLinks {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.footerLinks li {
+  margin: 10px 0;
+}
+
+.footerLinks a {
+  color: #cfcfcf;
+  text-decoration: none;
+}
+
+.footerLinks a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footerSocial {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.footerSocialIcon {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.footerSocialIcon:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.footerForm {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+  align-items: center;
+}
+
+.footerInput {
+  flex: 1;
+  height: 44px;
+  border-radius: 999px;
+  border: none;
+  padding: 0 16px;
+  outline: none;
+}
+
+.footerBtn {
+  height: 44px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 999px;
+  background: #7b3ff2;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footerBtn:hover {
+  filter: brightness(1.05);
+}
+
+.footerDivider {
+  margin: 28px 0 14px 0;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.footerCopy {
+  margin: 0;
+  color: #cfcfcf;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 767.98px) {
+  .footerForm {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .footerBtn {
+    width: 100%;
+  }
+}
