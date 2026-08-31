@@ -1,16 +1,46 @@
-# React + Vite
+# 🎲 BoardVerse
+ 
+E-commerce especializado na venda de jogos de tabuleiro, cartas, acessórios e produtos relacionados, oferecendo aos usuários uma experiência de compra simples, intuitiva e personalizada.
+ 
+Projeto desenvolvido para a disciplina de **Laboratório de Engenharia de Software**.
+ 
+## 📋 Sobre o projeto
+ 
+A plataforma conta com catálogo de produtos, busca e filtros, carrinho de compras e gestão de pedidos. Como diferencial, está prevista a implementação de um sistema de recomendação baseado em IA, capaz de sugerir jogos e produtos de acordo com as preferências, histórico de compras e interesses do usuário.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠️ Tecnologias
 
-Currently, two official plugins are available:
+| Tecnologia | Uso |
+|---|---|
+| [React](https://react.dev/) | Biblioteca principal da interface |
+| [Vite](https://vitejs.dev/) | Build tool e servidor de desenvolvimento |
+| [React Router](https://reactrouter.com/) | Roteamento entre páginas |
+| [CSS Modules](https://github.com/css-modules/css-modules) | Estilização isolada por componente |
+| [Lucide React](https://lucide.dev/) | Ícones |
+| [Recharts](https://recharts.org/) | Gráficos (dashboard de vendas) |
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## 🚀 Como rodar o projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Pré-requisitos
+- [Node.js](https://nodejs.org/) (versão 18 ou superior recomendada)
+- npm
 
-## Expanding the ESLint configuration
+### Instalação
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clonar o repositório
+git clone <url-do-repositorio>
+cd boardverse
+
+# Instalar dependências
+npm install
+```
+
+### Ambiente de desenvolvimento
+
+```bash
+npm run dev
+```
+
+A aplicação estará disponível em `http://localhost:5173`.
