@@ -1,0 +1,31 @@
+/* ProdutosPage.module.css */
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 32px 48px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  margin: 0 0 32px;
+}
+
+.content {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.main {
+  flex: 1;
+}
+
+@media (max-width: 767.98px) {
+  .content {
+    flex-direction: column;
+  }
+}
