@@ -1,0 +1,19 @@
+/* ClienteFormModal.module.css */
+
+.sectionTitle {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 8px 0 4px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 575.98px) {
+  .row {
+    flex-direction: column;
+  }
+}
