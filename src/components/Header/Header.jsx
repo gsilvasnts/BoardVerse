@@ -1,8 +1,10 @@
+import { useNavigate, Link } from "react-router-dom";
 import { Search, User, ShoppingCart } from "lucide-react";
-import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 
 function Header() {
+  const navigate = useNavigate();
+
   return (
     <header className={styles.header}>
       <h1 className={styles.logo}>BoardVerse</h1>
@@ -35,11 +37,19 @@ function Header() {
           </button>
         </div>
 
-        <button type="button" className={styles.userButton}>
+        <button
+          type="button"
+          className={styles.userButton}
+          onClick={() => navigate("/perfil")}
+        >
           <User size={20} />
         </button>
 
-        <button type="button" className={styles.cartButton}>
+        <button
+          type="button"
+          className={styles.cartButton}
+          onClick={() => navigate("/carrinho")}
+        >
           <div className={styles.cartCount}>0</div>
           <ShoppingCart size={20} />
           <span>Carrinho</span>

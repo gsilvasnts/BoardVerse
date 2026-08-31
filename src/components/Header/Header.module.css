@@ -157,7 +157,6 @@
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
   transition:
     transform 160ms ease,
     filter 160ms ease,
