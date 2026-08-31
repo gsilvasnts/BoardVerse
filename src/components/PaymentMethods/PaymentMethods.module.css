@@ -1,0 +1,125 @@
+/* PaymentMethods.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.question {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 8px 0 0;
+}
+
+.toggleRow {
+  display: flex;
+  gap: 20px;
+}
+
+.toggleOption {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.toggleOption input {
+  accent-color: #7c4dff;
+  cursor: pointer;
+}
+
+.metodos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.metodoBloco {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+.metodoRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.checkbox {
+  accent-color: #7c4dff;
+  cursor: pointer;
+}
+
+.metodoLabel {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  flex: 1;
+}
+
+.valorPill {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
+.cartaoDetalhes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 12px;
+  padding-left: 26px;
+}
+
+.parcelaOption {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.parcelaOption input {
+  accent-color: #7c4dff;
+  cursor: pointer;
+}
+
+.addCardButton {
+  align-self: flex-start;
+  background: #7c4dff;
+  border: none;
+  border-radius: 999px;
+  padding: 8px 16px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.restanteRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 2px;
+}
+
+.restanteLabel {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+}
+
+.restanteValor {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+}
