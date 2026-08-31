@@ -1,0 +1,68 @@
+/* CheckoutOrderSummary.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerLabel {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.itemRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.itemNome {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 13px;
+}
+
+.itemQtd {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.itemValor {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin: 6px 0;
+}
+
+.totalLabel {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.totalValor {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.privacidade {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 11px;
+  line-height: 1.5;
+  margin: 4px 0 0;
+}
+
+.link {
+  color: #b39dff;
+  text-decoration: underline;
+}
