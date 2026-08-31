@@ -1,0 +1,116 @@
+/* ProfilePage.module.css */
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  margin: 0 0 32px;
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  padding: 32px;
+  margin-top: 24px;
+  min-height: 300px;
+}
+
+.perfilTab {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.topRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatarWrapper {
+  position: relative;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #7c4dff, #ff6ec7, #ffd166);
+}
+
+.avatarEditButton {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.nomeWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.nome {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.nomeEditButton {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.nomeEditButton:hover {
+  color: #ffffff;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.fieldsRow {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+}
+
+.placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+
+@media (max-width: 767.98px) {
+  .fieldsRow {
+    flex-direction: column;
+  }
+
+  .topRow {
+    flex-wrap: wrap;
+  }
+}
