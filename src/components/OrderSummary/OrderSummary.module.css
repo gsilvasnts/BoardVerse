@@ -1,0 +1,60 @@
+/* OrderSummary.module.css */
+
+.summary {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 320px;
+  flex-shrink: 0;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  margin: 0 0 32px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.label {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+
+.value {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin: 4px 0;
+}
+
+.totalLabel {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.totalValue {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+@media (max-width: 767.98px) {
+  .summary {
+    width: 100%;
+  }
+}
