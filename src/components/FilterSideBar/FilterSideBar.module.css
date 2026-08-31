@@ -1,0 +1,79 @@
+/* FilterSideBar.module.css */
+
+.sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 14px;
+}
+
+.priceInputs {
+  display: flex;
+  gap: 40px;
+}
+
+.priceField {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.priceLabel {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 11px;
+}
+
+.priceInput {
+  background: rgba(255, 255, 255, 0.07);
+  border: none;
+  border-radius: 999px;
+  padding: 8px 14px;
+  color: #ffffff;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+  transition: background-color 160ms ease;
+}
+
+.priceInput::placeholder {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.priceInput:focus {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.sortOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sortOption {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.sortOption input[type="radio"] {
+  accent-color: #7c4dff;
+  cursor: pointer;
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
