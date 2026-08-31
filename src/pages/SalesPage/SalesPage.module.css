@@ -1,0 +1,69 @@
+/* SalesPage.module.css */
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  margin: 0 0 32px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.filterLabel {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.filtersRow {
+  display: flex;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.label {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.exibicaoWrapper {
+  max-width: 240px;
+}
+
+.chartArea {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}
+
+.exportRow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 767.98px) {
+  .filtersRow {
+    flex-direction: column;
+  }
+}
