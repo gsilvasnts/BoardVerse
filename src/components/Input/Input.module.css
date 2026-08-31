@@ -1,0 +1,47 @@
+/* Input.module.css */
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.label {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.required {
+  color: #fca5a5;
+}
+
+.input {
+  font-family: inherit;
+  background: rgba(255, 255, 255, 0.07);
+  border: none;
+  border-radius: 999px;
+  padding: 10px 16px;
+  color: #ffffff;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+  transition:
+    background-color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.input:focus {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 0 3px rgba(124, 77, 255, 0.25);
+}
+
+.input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
