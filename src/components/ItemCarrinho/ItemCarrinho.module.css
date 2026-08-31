@@ -1,0 +1,45 @@
+/* ItemCarrinho.module.css */
+
+.item {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.image {
+  width: 88px;
+  height: 88px;
+  border-radius: 12px;
+  object-fit: cover;
+  background: #ffffff;
+  flex-shrink: 0;
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nome {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.precoUnitario {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+}
+
+.subtotal {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  align-self: flex-start;
+}
