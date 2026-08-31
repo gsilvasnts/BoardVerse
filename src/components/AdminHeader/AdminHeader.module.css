@@ -1,0 +1,92 @@
+/* AdminHeader.module.css */
+
+.header {
+  font-family: "Work Sans", sans-serif;
+  background-color: #3b3b3b;
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 10px 32px;
+  min-height: 64px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(10px);
+}
+
+.brand {
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.logo {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+.navigation {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation ul {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation a {
+  position: relative;
+  color: rgba(255, 255, 255, 0.88);
+  font-weight: 650;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  display: inline-block;
+  transition:
+    color 160ms ease,
+    background-color 160ms ease,
+    transform 160ms ease;
+}
+
+.navigation a:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.07);
+  transform: translateY(-1px);
+}
+
+.userButton {
+  background: transparent;
+  border: 0;
+  padding: 6px;
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  display: flex;
+  flex-shrink: 0;
+  transition:
+    color 160ms ease,
+    background-color 160ms ease,
+    transform 160ms ease;
+}
+
+.userButton:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.07);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 767.98px) {
+  .header {
+    flex-wrap: wrap;
+  }
+}
