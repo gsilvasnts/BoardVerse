@@ -1,0 +1,98 @@
+/* CouponCard.module.css */
+
+.card {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.topo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.badge {
+  background: linear-gradient(135deg, #7c4dff, #b585ff);
+  border-radius: 14px;
+  width: 84px;
+  height: 64px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.titulo {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.detalhe {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 12px;
+}
+
+.verRegras {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: 1px solid rgba(124, 77, 255, 0.5);
+  border-radius: 999px;
+  padding: 8px 16px;
+  color: #b39dff;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background-color 160ms ease;
+}
+
+.verRegras:hover {
+  background: rgba(124, 77, 255, 0.1);
+}
+
+.chevron {
+  transition: transform 160ms ease;
+}
+
+.chevronAberto {
+  transform: rotate(180deg);
+}
+
+.regras {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.regraTexto {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 575.98px) {
+  .topo {
+    flex-wrap: wrap;
+  }
+
+  .verRegras {
+    width: 100%;
+    justify-content: center;
+  }
+}
